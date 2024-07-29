@@ -18,6 +18,9 @@ This guide provides step-by-step instructions to set up a Virtual Machine (VM) f
    ```sh
    sudo apt install linux-headers-$(uname -r)
    ```
+    ```sh
+   sudo apt-get install dkms
+   ```
    ```sh
    wget https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_520.61.05_linux.run
    sudo sh cuda_11.8.0_520.61.05_linux.run
