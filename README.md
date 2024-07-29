@@ -3,8 +3,7 @@
 This guide provides step-by-step instructions to set up a Virtual Machine (VM) for deep learning tasks.
 
 ## Set Up the Environment
-
-1. **Update Packages:**
+**Update Packages:**
    ```sh
    sudo apt update
    sudo apt upgrade
