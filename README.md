@@ -18,7 +18,7 @@ This guide provides step-by-step instructions to set up a Virtual Machine (VM) f
    ```sh
    sudo apt install linux-headers-$(uname -r)
    ```
-    ```sh
+   ```sh
    sudo apt-get install dkms
    ```
    ```sh
