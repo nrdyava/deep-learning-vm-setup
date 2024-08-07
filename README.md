@@ -74,6 +74,7 @@ This guide provides step-by-step instructions to set up a Virtual Machine (VM) f
    nano ~/.jupyter/jupyter_lab_config.py
    ```
    ```sh
+   #Run this in colab for ease.
    from notebook.auth import passwd
    passwd()
    ```
