@@ -64,3 +64,25 @@ This guide provides step-by-step instructions to set up a Virtual Machine (VM) f
    ```sh
    miniconda3/bin/conda init bash
    ```
+
+**Setting up Jupyter Lab:**
+   ```sh
+   pip install jupyterlab
+   ```
+   ```sh
+   jupyter lab --generate-config
+   nano ~/.jupyter/jupyter_lab_config.py
+   ```
+   ```sh
+   from notebook.auth import passwd
+   passwd()
+   ```
+   ```sh
+   c.ServerApp.ip = '0.0.0.0'
+   c.ServerApp.open_browser = False
+   c.ServerApp.password = <hash-of-the-password>
+   c.ServerApp.port = <choose-a-port> 
+   ```
+   ```sh
+   ssh -N -L ${local-port}:${server-node}:${jupyter-server-port} ${user}@${domain}
+   ```
