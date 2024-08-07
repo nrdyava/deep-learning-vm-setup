@@ -84,5 +84,5 @@ This guide provides step-by-step instructions to set up a Virtual Machine (VM) f
    c.ServerApp.port = <choose-a-port> 
    ```
    ```sh
-   ssh -N -L ${local-port}:${server-node}:${jupyter-server-port} ${user}@${domain}
+   ssh -N -L {local-port}:{server-node}:{jupyter-server-port} {user}@{domain}
    ```
